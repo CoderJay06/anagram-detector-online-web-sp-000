@@ -14,7 +14,25 @@ class Anagram
     # determine if they are composed of same letters
     # split can make word into array of letters 
     # compare 2 arrays using == 
-    binding.pry 
+    match_word = %w() 
+    words.each do |word| 
+      word = word.split("").sort 
+      if word == anagram_word.split("").sort 
+        match_word = word 
+      else 
+        match_word 
+      end 
+    end 
+    match_word 
   end 
   
 end 
+
+
+
+
+
+
+
+
+
