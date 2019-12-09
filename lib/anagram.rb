@@ -9,11 +9,6 @@ class Anagram
   end 
   
   def match(words)
-    # iterate over array of words 
-    # compare each word of words to anagram_word 
-    # determine if they are composed of same letters
-    # split can make word into array of letters 
-    # compare 2 arrays using == 
     match_word = %w() 
     words.each do |word| 
       word = word.split("")
