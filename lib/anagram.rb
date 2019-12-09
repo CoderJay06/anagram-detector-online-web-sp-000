@@ -24,7 +24,7 @@ class Anagram
         match_word 
       end 
     end 
-    match_word.join.split.flatten
+    match_word.join
   end 
   
 end 
