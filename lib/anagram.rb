@@ -24,7 +24,6 @@ class Anagram
       end 
     end 
     match_word.join("")
-    binding.pry 
   end 
   
 end 
