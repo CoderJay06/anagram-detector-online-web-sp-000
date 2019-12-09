@@ -18,7 +18,7 @@ class Anagram
     words.each do |word| 
       word = word.split("")
       if word.sort == anagram_word.split("").sort 
-        match_word << word.join(",")
+        match_word << word.join("").split(",")
       else 
         match_word 
       end 
