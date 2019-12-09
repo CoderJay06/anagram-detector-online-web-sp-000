@@ -23,7 +23,7 @@ class Anagram
         match_word 
       end 
     end 
-    match_word.join("")
+    match_word
   end 
   
 end 
