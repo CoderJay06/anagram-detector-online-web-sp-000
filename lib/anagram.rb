@@ -19,12 +19,12 @@ class Anagram
       word = word.split("")
       if word.sort == anagram_word.split("").sort 
         match_word << word
-        match_word.join.split(",")
+        match_word.join("").split(",")
       else 
         match_word 
       end 
     end 
-    match_word
+    match_word.flatten
   end 
   
 end 
