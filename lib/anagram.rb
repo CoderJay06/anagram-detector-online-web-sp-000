@@ -16,13 +16,14 @@ class Anagram
     # compare 2 arrays using == 
     match_word = %w() 
     words.each do |word| 
-      if word.split("").sort == anagram_word.split("").sort 
+      word = word.split("").sort
+      if word == anagram_word.split("").sort 
         match_word = word 
       else 
         match_word 
       end 
     end 
-    match_word.split
+    match_word.join("").split 
   end 
   
 end 
