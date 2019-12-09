@@ -1,4 +1,6 @@
 # Your code goes here!
+require 'pry'
+
 class Anagram 
   attr_accessor :anagram_word 
   
@@ -12,7 +14,7 @@ class Anagram
     # determine if they are composed of same letters
     # split can make word into array of letters 
     # compare 2 arrays using == 
-    words
+    binding.pry 
   end 
   
 end 
