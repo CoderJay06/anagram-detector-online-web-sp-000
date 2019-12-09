@@ -22,7 +22,7 @@ class Anagram
         match_word 
       end 
     end 
-    match_word.split
+    match_word
   end 
   
 end 
